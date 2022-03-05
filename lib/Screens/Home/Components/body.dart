@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
 class Body extends StatefulWidget {
@@ -32,6 +33,9 @@ class _BodyState extends State<Body> {
       "BloodType": "O-",
     },
   ];
+
+  final Stream<QuerySnapshot?>? BloodTypes =
+      FirebaseFirestore.instance.collection("BloodTypes").snapshots();
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
