@@ -1,5 +1,5 @@
-import 'package:blood_donation_app/Authentication/SignIn.dart';
-import 'package:blood_donation_app/Home/Home.dart';
+import 'package:blood_donation_app/Screens/Authentication/SignIn.dart';
+import 'package:blood_donation_app/Screens/Home/Home.dart';
 import 'package:blood_donation_app/Services/Authentication_services.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';

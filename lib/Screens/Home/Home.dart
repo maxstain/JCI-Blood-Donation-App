@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors_in_immutables, file_names, prefer_const_constructors
 
-import 'package:blood_donation_app/Home/Components/body.dart';
+import 'package:blood_donation_app/Screens/Home/Components/body.dart';
 import 'package:blood_donation_app/Services/Authentication_services.dart';
 import 'package:blood_donation_app/main.dart';
 import 'package:flutter/material.dart';

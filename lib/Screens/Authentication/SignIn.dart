@@ -1,5 +1,5 @@
 // ignore_for_file: file_names
-import 'package:blood_donation_app/Authentication/SignUp.dart';
+import 'package:blood_donation_app/Screens/Authentication/SignUp.dart';
 import 'package:blood_donation_app/Services/Authentication_services.dart';
 import 'package:blood_donation_app/main.dart';
 import 'package:flutter/material.dart';
@@ -112,7 +112,7 @@ class SignInPage extends StatelessWidget {
                 TextButton(
                   onPressed: () => Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => SignUpPage(),
+                      builder: (context) => const SignUpPage(),
                     ),
                   ),
                   child: const Text("Sign Up"),
